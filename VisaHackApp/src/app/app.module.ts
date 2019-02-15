@@ -9,6 +9,9 @@ import { CadastroComponent } from './ui/cadastro/cadastro.component';
 import { DespesasComponent } from './ui/despesas/despesas.component';
 import { InvestimentosComponent } from './ui/investimentos/investimentos.component';
 import { FornecedoresComponent } from './ui/fornecedores/fornecedores.component';
+import { FooterComponent } from './ui/footer/footer.component';
+import { VendasComponent } from './ui/vendas/vendas.component';
+import { CartaoComponent } from './ui/despesas/cartao/cartao.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { FornecedoresComponent } from './ui/fornecedores/fornecedores.component'
     CadastroComponent,
     DespesasComponent,
     InvestimentosComponent,
-    FornecedoresComponent
+    FornecedoresComponent,
+    FooterComponent,
+    VendasComponent,
+    CartaoComponent
   ],
   imports: [
     BrowserModule,

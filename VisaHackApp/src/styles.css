@@ -1,3 +1,31 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 body{
-    background-color: black !important;
+    background-color: white !important;
+    font-family: "robotoFont"; 
+}
+navbar-nav { 
+    flex-direction: row;
+}
+
+.mainColor{
+    background-color: rgb(0, 172, 193) !important;
+}
+.mainText{
+    color: rgb(0, 172, 193) !important;
+}
+
+@font-face {
+    font-family: 'robotoFont';
+    src: url('./assets/fonts/Roboto-Regular.eot');
+    src: url('./assets/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/Roboto-Regular.svg#Roboto-Regular') format('svg'),
+         url('./assets/fonts/Roboto-Regular.woff') format('woff'),
+         url('./assets/fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.robotoFont{
+    font-family: "robotoFont";
 }
