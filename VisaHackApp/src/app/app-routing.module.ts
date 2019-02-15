@@ -11,10 +11,10 @@ import { CadastroComponent } from "./ui/cadastro/cadastro.component";
 // Modulos UI -->
 const routes: Routes = [
   {path: "", component: HomeComponent},
-  {path: "/investimentos", component: InvestimentosComponent},
-  {path: "/fornecedores", component: FornecedoresComponent},
-  {path: "/despesas", component: DespesasComponent},
-  {path: "/cadastro", component: CadastroComponent}
+  {path: "investimentos", component: InvestimentosComponent},
+  {path: "fornecedores", component: FornecedoresComponent},
+  {path: "despesas", component: DespesasComponent},
+  {path: "cadastro", component: CadastroComponent}
 ];
 
 @NgModule({
